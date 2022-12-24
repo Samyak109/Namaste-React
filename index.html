@@ -7,7 +7,9 @@
     <title>Namaste React</title>
   </head>
   <body>
+    <div id="Header">Header</div>
     <div id="root"></div>
+    <div id="footer">Footer</div>
   </body>
   <script
     crossorigin
@@ -20,8 +22,11 @@
   <script>
     const heading = React.createElement("h1", {}, "Namaste From React");
 
+    console.log(heading); // React elements are just objects
+
     const root = ReactDOM.createRoot(document.getElementById("root"));
 
+    // passing react element to root
     root.render(heading);
   </script>
 </html>
