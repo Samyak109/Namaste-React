@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste React</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- If there is any error in react rendering this will be logged -->
@@ -18,34 +19,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <script>
-      const heading = React.createElement(
-        "h1", // Tag
-        {
-          // we pass attributes here
-          id: "Title",
-        },
-        "Namaste From React" // Children/Inner Body
-      );
-      const heading2 = React.createElement(
-        "h2", 
-        {
-          id: "Title",
-        },
-        "Namaste From React h2"
-      );
-      const container = React.createElement(
-        "div",
-        {
-          id: "Container",
-        },
-        [heading, heading2] // Children/Inner Body
-      );
-      /* In react we need to assign root to something so it renders in that root*/
-      const root = ReactDOM.createRoot(document.getElementById("root")); 
-
-      // passing react element to root, render takes react element and modifies DOM
-      root.render(container);
-    </script>
+    <script src="App.js"></script>
   </body>
 </html>
