@@ -27,14 +27,25 @@
         },
         "Namaste From React" // Children/Inner Body
       );
-
-      console.log(heading); // React elements are just objects
-
+      const heading2 = React.createElement(
+        "h2", 
+        {
+          id: "Title",
+        },
+        "Namaste From React h2"
+      );
+      const container = React.createElement(
+        "div",
+        {
+          id: "Container",
+        },
+        [heading, heading2] // Children/Inner Body
+      );
       /* In react we need to assign root to something so it renders in that root*/
       const root = ReactDOM.createRoot(document.getElementById("root")); 
 
       // passing react element to root, render takes react element and modifies DOM
-      root.render(heading);
+      root.render(container);
     </script>
   </body>
 </html>
