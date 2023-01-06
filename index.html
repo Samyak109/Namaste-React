@@ -10,15 +10,6 @@
   <body>
     <!-- If there is any error in react rendering this will be logged -->
     <div id="root">Not rendered</div>
-    <!-- Order is important, loading order matters a lot -->
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script src="App.js"></script>
+    <script src="App.js" type="module"></script>
   </body>
 </html>
