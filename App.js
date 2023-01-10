@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+const HeaderComponent = () => {
+  return <h1>Namaste React from functional component</h1>;
+};
+
 const heading = (
   <h1 id="title" key={"h1"}>
     Namaste From React
