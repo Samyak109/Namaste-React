@@ -1,14 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const HeaderComponent = () => {
-  return <h1>Namaste React from functional component</h1>;
-};
-
 const heading = (
   <h1 id="title" key={"h1"}>
     Namaste From React
   </h1>
+);
+
+const Title = () => (
+  <div>
+    <h1>Namaste React from functional component Title</h1>
+  </div>
+);
+
+const HeaderComponent = () => (
+  <div>
+    {heading} {/* Render react element in component*/}
+    {Title()} {/* Render react functional component in component*/}
+    <Title /> {/* Render react functional component in component*/}
+    <h1>Namaste React from functional component</h1>
+  </div>
 );
 
 const heading2 = (
@@ -27,4 +38,4 @@ const container = (
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // passing react element to root, render takes react element and modifies DOM
-root.render(container);
+root.render(<HeaderComponent />);
