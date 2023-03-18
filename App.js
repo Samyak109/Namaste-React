@@ -2,9 +2,11 @@ import ReactDOM from "react-dom/client";
 
 const HeaderComponent = () => (
   <div style={{ border: "1px solid"}}>
-    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Logo" />
-    <input type="text" placeholder="Search.."></input>
-    <i className="fa fa-cloud"></i>
+    {/* This is a Comment */}
+    {/* JSX - Not Mandantory 
+        ES 6 - Not Mandatory
+    */}
+    <h1>Starting Project</h1>   
   </div>
 );
 
