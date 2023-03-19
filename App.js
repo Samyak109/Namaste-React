@@ -46,26 +46,32 @@ const Header = () => (
   </div>
 );
 
-const RestaurantCard = ({name, cuisine, image}) => {
+const RestaurantCard = ({ imageURL, name, cuisines, deliveryTime }) => {
+  console.log(imageURL);
   return (
     <div className="card">
-      <img
-        src={image?.url}
-        alt="restaurant"
-      />
+      <img src={imageURL} alt="restaurant" />
       <h2>{name}</h2>
-      <h3>{cuisine[0].name}</h3>
+      <h3 className="cuisine">{cuisines.map((cuisine) => cuisine.name).join(",")}</h3>
+      <h3>{deliveryTime}</h3>
     </div>
   );
 };
 
-const Body = () => (
-  <div className="cards">
-    <RestaurantCard {...zomatoData.SECTION_SEARCH_RESULT[0].info}/>
-    <RestaurantCard {...zomatoData.SECTION_SEARCH_RESULT[1].info}/>
-    <RestaurantCard {...zomatoData.SECTION_SEARCH_RESULT[2].info}/>
-  </div>
-);
+const Body = () => {
+  return (
+    <div className="cards">
+      {zomatoData.SECTION_SEARCH_RESULT.map((restaurant) => {
+        return <RestaurantCard
+          imageURL={restaurant.info?.image?.url}
+          name={restaurant.info.name}
+          cuisines={restaurant.info.cuisine}
+          deliveryTime={restaurant.order.deliveryTime}
+        />;
+      })}
+    </div>
+  );
+};
 
 const Footer = () => <h1>Footer</h1>;
 
