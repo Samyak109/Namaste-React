@@ -46,25 +46,24 @@ const Header = () => (
   </div>
 );
 
-const RestaurantCard = ({restaurantData}) => {
+const RestaurantCard = ({name, cuisine, image}) => {
   return (
     <div className="card">
       <img
-        src={zomatoData.SECTION_SEARCH_RESULT[0]?.info?.image?.url}
+        src={image?.url}
         alt="restaurant"
       />
-      <h2>{restaurantData?.info.name}</h2>
-      <h3>{restaurantData?.info.cuisine[0].name}</h3>
-      <h3>{restaurantData?.order?.deliveryTime}</h3>
+      <h2>{name}</h2>
+      <h3>{cuisine[0].name}</h3>
     </div>
   );
 };
 
 const Body = () => (
   <div className="cards">
-    <RestaurantCard restaurantData = {zomatoData.SECTION_SEARCH_RESULT[0]}/>
-    <RestaurantCard restaurantData = {zomatoData.SECTION_SEARCH_RESULT[1]}/>
-    <RestaurantCard restaurantData = {zomatoData.SECTION_SEARCH_RESULT[2]}/>
+    <RestaurantCard {...zomatoData.SECTION_SEARCH_RESULT[0].info}/>
+    <RestaurantCard {...zomatoData.SECTION_SEARCH_RESULT[1].info}/>
+    <RestaurantCard {...zomatoData.SECTION_SEARCH_RESULT[2].info}/>
   </div>
 );
 
