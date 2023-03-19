@@ -24,14 +24,16 @@
 }
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
     border: 1px dotted black;
     width: 14rem;
     margin: 10px;
     padding: 5px;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 .card > img {
     width: 100%;
 }

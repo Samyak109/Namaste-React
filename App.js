@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+import * as zomatoData from "./zomato.json";
 
 const AppLayout = () => (
   <>
@@ -45,22 +46,27 @@ const Header = () => (
   </div>
 );
 
-const RestaurantCard = () => (
-  <div className="card">
-    <img
-      src="https://b.zmtcdn.com/data/pictures/chains/7/2600007/8e91938b58a0e7b8a444a7745acff99b_o2_featured_v2.jpg"
-      alt="restaurant"
-    />
-    <h2>Bake N Shake</h2>
-    <h3>Bakery, Chinese, Wraps</h3>
-    <h3>23 mins</h3>
-  </div>
-);
+const RestaurantCard = () => {
+  const restaurantData = zomatoData.SECTION_SEARCH_RESULT[0];
+  return (
+    <div className="card">
+      <img
+        src={zomatoData.SECTION_SEARCH_RESULT[0]?.info?.image?.url}
+        alt="restaurant"
+      />
+      <h2>{restaurantData?.info.name}</h2>
+      <h3>{restaurantData?.info.cuisine[0].name}</h3>
+      <h3>{restaurantData?.order?.deliveryTime}</h3>
+    </div>
+  );
+};
 
 const Body = () => (
-  <>
+  <div className="cards">
     <RestaurantCard />
-  </>
+    <RestaurantCard />
+    <RestaurantCard />
+  </div>
 );
 
 const Footer = () => <h1>Footer</h1>;

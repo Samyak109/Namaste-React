@@ -1,0 +1,1658 @@
+{
+  "SECTION_SEARCH_RESULT": [
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 2600007,
+        "name": "Bake N Shake",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/chains/7/2600007/8e91938b58a0e7b8a444a7745acff99b_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/chains/7/2600007/8e91938b58a0e7b8a444a7745acff99b_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "4.3",
+          "rating_text": "4.3",
+          "rating_subtitle": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "7,423",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "4.3",
+              "reviewCount": "512",
+              "reviewTextSmall": "512 Reviews",
+              "subtext": "512 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "4.3",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "4.3",
+              "reviewCount": "6,911",
+              "reviewTextSmall": "6,911 Reviews",
+              "subtext": "6,911 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "4.3",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9400 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "TT Nagar, Bhopal",
+          "address": "Rangmahal Cineplex Compound, New Market, TT Nagar, Bhopal",
+          "localityUrl": "bhopal/tt-nagar-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/bakery/",
+            "name": "Bakery"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAyNFwiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/wraps/",
+            "name": "Wraps"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
+            "url": "https://www.zomato.com/bhopal/restaurants/salad/",
+            "name": "Salad"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/pizza/",
+            "name": "Pizza"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA0MFwiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/coffee/",
+            "name": "Coffee"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+            "url": "https://www.zomato.com/bhopal/restaurants/beverages/",
+            "name": "Beverages"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "23 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/bake-n-shake-tt-nagar/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/bake-n-shake-tt-nagar/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "2.4 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"2600007\",\"element_type\":\"listing\",\"rank\":1}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "Pro extra 20% OFF",
+          "color": { "tint": "600", "type": "pink" }
+        },
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "3100+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 18772988,
+        "name": "New Zam Zam",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/8/18772988/d714573037aaea205c21f06fc3a8c96f_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/8/18772988/d714573037aaea205c21f06fc3a8c96f_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "4.0",
+          "rating_text": "4.0",
+          "rating_subtitle": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "15.4K",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "4.2",
+              "reviewCount": "268",
+              "reviewTextSmall": "268 Reviews",
+              "subtext": "268 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "4.2",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.8",
+              "reviewCount": "15.2K",
+              "reviewTextSmall": "15.2K Reviews",
+              "subtext": "15.2K Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.8",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9500 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "BHEL, Bhopal",
+          "address": "86 A, Main Road, Awadhpuri, Near Ondoor Super Market, BHEL, Bhopal",
+          "localityUrl": "bhopal/bhel-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/biryani/",
+            "name": "Biryani"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/mughlai/",
+            "name": "Mughlai"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "41 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/new-zam-zam-bhel/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/new-zam-zam-bhel/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "7.5 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18772988\",\"element_type\":\"listing\",\"rank\":2}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "Pro extra 25% OFF",
+          "color": { "tint": "600", "type": "pink" }
+        },
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "3125+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+            "aspect_ratio": 2.0625
+          },
+          "text": "Restaurant partner follows WHO protocol"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 19874516,
+        "name": "99 Rotiwala",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/6/19874516/1559759c5e4e4661d371a6f7045276bc_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/6/19874516/1559759c5e4e4661d371a6f7045276bc_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "3.6",
+          "rating_text": "3.6",
+          "rating_subtitle": "Good",
+          "rating_color": "9ACD32",
+          "votes": "2,717",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "",
+              "reviewCount": "0",
+              "reviewTextSmall": "0 Reviews",
+              "subtext": "Does not offer Dining",
+              "color": "",
+              "ratingV2": "-",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "grey", "tint": "500" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.6",
+              "reviewCount": "2,717",
+              "reviewTextSmall": "2,717 Reviews",
+              "subtext": "2,717 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.6",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9300 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "Maharana Pratap Nagar, Bhopal",
+          "address": "221, Zone 2, Maharana Pratap Nagar, Bhopal",
+          "localityUrl": "bhopal/maharana-pratap-nagar-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "29 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/99-rotiwala-maharana-pratap-nagar/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/99-rotiwala-maharana-pratap-nagar/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "3.2 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19874516\",\"element_type\":\"listing\",\"rank\":3}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "3375+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 20064268,
+        "name": "Sharma Bhojnalaya - Jawahar Chowk",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/8/20064268/ddcf20232715b07e3db912025bc9e0da_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/8/20064268/ddcf20232715b07e3db912025bc9e0da_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "4.2",
+          "rating_text": "4.2",
+          "rating_subtitle": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "726",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "",
+              "reviewCount": "1",
+              "reviewTextSmall": "1 Reviews",
+              "subtext": "Does not offer Dining",
+              "color": "",
+              "ratingV2": "-",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "grey", "tint": "500" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "4.2",
+              "reviewCount": "725",
+              "reviewTextSmall": "725 Reviews",
+              "subtext": "725 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "4.2",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9300 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "TT Nagar, Bhopal",
+          "address": "Saraswati Nagar, Near Jawahar Chowk, Bhopal Huzur, TT Nagar, Bhopal",
+          "localityUrl": "bhopal/tt-nagar-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "30 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/sharma-bhojnalaya-jawahar-chowk-tt-nagar/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/sharma-bhojnalaya-jawahar-chowk-tt-nagar/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "3.2 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20064268\",\"element_type\":\"listing\",\"rank\":4}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "2775+ orders placed from here recently"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 2601366,
+        "name": "Rajoriya DK Restaurant",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/6/2601366/1ffb76fd42dfe06082036acb67c5be8e_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/6/2601366/1ffb76fd42dfe06082036acb67c5be8e_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "3.7",
+          "rating_text": "3.7",
+          "rating_subtitle": "Good",
+          "rating_color": "9ACD32",
+          "votes": "13.1K",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "3.8",
+              "reviewCount": "246",
+              "reviewTextSmall": "246 Reviews",
+              "subtext": "246 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "3.8",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.6",
+              "reviewCount": "12.9K",
+              "reviewTextSmall": "12.9K Reviews",
+              "subtext": "12.9K Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.6",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9300 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "BHEL, Bhopal",
+          "address": "Shop 22, J K Road, BHEL, Bhopal",
+          "localityUrl": "bhopal/bhel-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/street-food/",
+            "name": "Street Food"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "35 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/rajoriya-dk-restaurant-bhel/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/rajoriya-dk-restaurant-bhel/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "4.6 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"2601366\",\"element_type\":\"listing\",\"rank\":5}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "Pro extra 15% OFF",
+          "color": { "tint": "600", "type": "pink" }
+        },
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "3150+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+            "aspect_ratio": 2.0625
+          },
+          "text": "Restaurant partner follows WHO protocol"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 19931930,
+        "name": "Pizza Kitchen",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/0/19931930/430108d0986e7a18c7b8758e8afa5c0d_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/0/19931930/430108d0986e7a18c7b8758e8afa5c0d_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "4.0",
+          "rating_text": "4.0",
+          "rating_subtitle": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "1,694",
+          "subtext": "REVIEW",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "3.8",
+              "reviewCount": "19",
+              "reviewTextSmall": "19 Reviews",
+              "subtext": "19 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "3.8",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "4.1",
+              "reviewCount": "1,675",
+              "reviewTextSmall": "1,675 Reviews",
+              "subtext": "1,675 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "4.1",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9500 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "Maharana Pratap Nagar, Bhopal",
+          "address": "F 127, Gautam Nagar, Govindpura, Huzur, Maharana Pratap Nagar, Bhopal",
+          "localityUrl": "bhopal/maharana-pratap-nagar-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/pizza/",
+            "name": "Pizza"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/pasta/",
+            "name": "Pasta"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NlwiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/shake/",
+            "name": "Shake"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "32 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/pizza-kitchen-maharana-pratap-nagar/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/pizza-kitchen-maharana-pratap-nagar/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "2.5 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19931930\",\"element_type\":\"listing\",\"rank\":6}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "1850+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 18802721,
+        "name": "New Indian Coffee House",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/1/18802721/0bb43592f76245dc40a152aabeb7c873_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/1/18802721/0bb43592f76245dc40a152aabeb7c873_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "3.7",
+          "rating_text": "3.7",
+          "rating_subtitle": "Good",
+          "rating_color": "9ACD32",
+          "votes": "5,570",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "3.8",
+              "reviewCount": "61",
+              "reviewTextSmall": "61 Reviews",
+              "subtext": "61 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "3.8",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.6",
+              "reviewCount": "5,509",
+              "reviewTextSmall": "5,509 Reviews",
+              "subtext": "5,509 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.6",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9300 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "BHEL, Bhopal",
+          "address": "13 B, Indrapuri, BHEL, Bhopal",
+          "localityUrl": "bhopal/bhel-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/south-indian/",
+            "name": "South Indian"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "32 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/new-indian-coffee-house-bhel/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/new-indian-coffee-house-bhel/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "4.6 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18802721\",\"element_type\":\"listing\",\"rank\":7}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "1900+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 19277187,
+        "name": "Narmada Canteen",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/7/19277187/b8e6d519e2f5ffcef7d74b737d9aa2f9_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/7/19277187/b8e6d519e2f5ffcef7d74b737d9aa2f9_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "3.6",
+          "rating_text": "3.6",
+          "rating_subtitle": "Good",
+          "rating_color": "9ACD32",
+          "votes": "3,964",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "3.3",
+              "reviewCount": "24",
+              "reviewTextSmall": "24 Reviews",
+              "subtext": "24 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "3.3",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "500" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.9",
+              "reviewCount": "3,940",
+              "reviewTextSmall": "3,940 Reviews",
+              "subtext": "3,940 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.9",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9250 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "Arera Colony, Bhopal",
+          "address": "E 3/24, Arera Colony, Bhopal",
+          "localityUrl": "bhopal/arera-colony-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/fast-food/",
+            "name": "Fast Food"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAxNVwiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/mithai/",
+            "name": "Mithai"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "35 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/narmada-canteen-4-arera-colony/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/narmada-canteen-4-arera-colony/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "4.2 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19277187\",\"element_type\":\"listing\",\"rank\":8}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "3200+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 2600051,
+        "name": "Al-Beik",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/1/2600051/27818f1fdf2446779658d8973b29691a_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/1/2600051/27818f1fdf2446779658d8973b29691a_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "4.1",
+          "rating_text": "4.1",
+          "rating_subtitle": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "16.7K",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "4.0",
+              "reviewCount": "1,067",
+              "reviewTextSmall": "1,067 Reviews",
+              "subtext": "1,067 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "4.0",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "4.2",
+              "reviewCount": "15.6K",
+              "reviewTextSmall": "15.6K Reviews",
+              "subtext": "15.6K Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "4.2",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9200 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "Maharana Pratap Nagar, Bhopal",
+          "address": "Plot 7, Opposite Manohar Dairy, Near City Bank, Zone 1, Maharana Pratap Nagar, Bhopal",
+          "localityUrl": "bhopal/maharana-pratap-nagar-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/fast-food/",
+            "name": "Fast Food"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "25 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/al-beik-2-maharana-pratap-nagar/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/al-beik-2-maharana-pratap-nagar/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "2.5 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"2600051\",\"element_type\":\"listing\",\"rank\":9}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "825+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+            "aspect_ratio": 2.0625
+          },
+          "text": "Restaurant partner follows WHO protocol"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 19270064,
+        "name": "Anjani Veg Bhojnalaya",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/chains/4/19270064/fc1fa42bdcb41179c34cf895652af9e9_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/chains/4/19270064/fc1fa42bdcb41179c34cf895652af9e9_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "3.7",
+          "rating_text": "3.7",
+          "rating_subtitle": "Good",
+          "rating_color": "9ACD32",
+          "votes": "6,763",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "3.8",
+              "reviewCount": "54",
+              "reviewTextSmall": "54 Reviews",
+              "subtext": "54 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "3.8",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.6",
+              "reviewCount": "6,709",
+              "reviewTextSmall": "6,709 Reviews",
+              "subtext": "6,709 Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.6",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9200 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "Hoshangabad Road, Bhopal",
+          "address": "D1/122, Danish Nagar, Hoshangabad Road, Bhopal",
+          "localityUrl": "bhopal/hoshangabad-road-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "45 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/anjani-veg-bhojnalaya-hoshangabad-road/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/anjani-veg-bhojnalaya-hoshangabad-road/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "8.3 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19270064\",\"element_type\":\"listing\",\"rank\":10}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "2200+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 2600488,
+        "name": "Daawat",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/8/2600488/a194b460ab80b25b76ccb4e7b23c2958_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/8/2600488/a194b460ab80b25b76ccb4e7b23c2958_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "3.8",
+          "rating_text": "3.8",
+          "rating_subtitle": "Good",
+          "rating_color": "9ACD32",
+          "votes": "13.5K",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "3.9",
+              "reviewCount": "322",
+              "reviewTextSmall": "322 Reviews",
+              "subtext": "322 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "3.9",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.7",
+              "reviewCount": "13.2K",
+              "reviewTextSmall": "13.2K Reviews",
+              "subtext": "13.2K Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.7",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9800 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "Maharana Pratap Nagar, Bhopal",
+          "address": "197, Obedulla Ganj Road, Zone-2, Maharana Pratap Nagar, Bhopal",
+          "localityUrl": "bhopal/maharana-pratap-nagar-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/fast-food/",
+            "name": "Fast Food"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/continental/",
+            "name": "Continental"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/south-indian/",
+            "name": "South Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODNcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/sea-food/",
+            "name": "Seafood"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+            "url": "https://www.zomato.com/bhopal/restaurants/desserts/",
+            "name": "Desserts"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+            "url": "https://www.zomato.com/bhopal/restaurants/beverages/",
+            "name": "Beverages"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "28 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/daawat-maharana-pratap-nagar/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/daawat-maharana-pratap-nagar/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "3.2 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"2600488\",\"element_type\":\"listing\",\"rank\":11}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "4950+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    },
+    {
+      "type": "restaurant",
+      "info": {
+        "resId": 18782467,
+        "name": "Laziz Zam Zam Restaurant",
+        "image": {
+          "url": "https://b.zmtcdn.com/data/pictures/chains/7/18782467/8d7d4f1aae3f6f97a45bf8ad2f24e2e7_o2_featured_v2.jpg"
+        },
+        "o2FeaturedImage": {
+          "url": "https://b.zmtcdn.com/data/pictures/chains/7/18782467/8d7d4f1aae3f6f97a45bf8ad2f24e2e7_o2_featured_v2.jpg"
+        },
+        "rating": {
+          "has_fake_reviews": 0,
+          "aggregate_rating": "4.0",
+          "rating_text": "4.0",
+          "rating_subtitle": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "14.6K",
+          "subtext": "REVIEWS",
+          "is_new": false
+        },
+        "ratingNew": {
+          "newlyOpenedObj": null,
+          "suspiciousReviewObj": null,
+          "ratings": {
+            "DINING": {
+              "rating_type": "DINING",
+              "rating": "4.1",
+              "reviewCount": "211",
+              "reviewTextSmall": "211 Reviews",
+              "subtext": "211 Dining Reviews",
+              "color": "#1C1C1C",
+              "ratingV2": "4.1",
+              "subtitle": "DINING",
+              "sideSubTitle": "Dining Reviews",
+              "bgColorV2": { "type": "green", "tint": "700" }
+            },
+            "DELIVERY": {
+              "rating_type": "DELIVERY",
+              "rating": "3.8",
+              "reviewCount": "14.4K",
+              "reviewTextSmall": "14.4K Reviews",
+              "subtext": "14.4K Delivery Reviews",
+              "color": "#E23744",
+              "ratingV2": "3.8",
+              "subtitle": "DELIVERY",
+              "sideSubTitle": "Delivery Reviews",
+              "bgColorV2": { "type": "green", "tint": "600" },
+              "newOnDelivery": false
+            }
+          }
+        },
+        "cft": { "text": "\u20b9500 for two" },
+        "cfo": { "text": "\u20b9200 for one" },
+        "locality": {
+          "name": "BHEL, Bhopal",
+          "address": "Rishi East City, Rishipuram, Barkheda, Awadhpuri, Near BHEL, Bhopal",
+          "localityUrl": "bhopal/bhel-restaurants"
+        },
+        "timing": { "text": "", "color": "" },
+        "cuisine": [
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/north-indian/",
+            "name": "North Indian"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/biryani/",
+            "name": "Biryani"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+            "url": "https://www.zomato.com/bhopal/restaurants/chinese/",
+            "name": "Chinese"
+          },
+          {
+            "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+            "url": "https://www.zomato.com/bhopal/restaurants/desserts/",
+            "name": "Desserts"
+          }
+        ],
+        "should_ban_ugc": false,
+        "costText": { "text": "\u20b9200 for one" }
+      },
+      "order": {
+        "deliveryTime": "45 min",
+        "isServiceable": true,
+        "hasOnlineOrdering": true,
+        "actionInfo": {
+          "text": "Order Now",
+          "clickUrl": "/bhopal/laziz-zam-zam-restaurant-bhel/order"
+        }
+      },
+      "gold": [],
+      "takeaway": [],
+      "cardAction": {
+        "text": "",
+        "clickUrl": "/bhopal/laziz-zam-zam-restaurant-bhel/order",
+        "clickActionDeeplink": ""
+      },
+      "distance": "7.3 km",
+      "isPromoted": false,
+      "promotedText": "",
+      "trackingData": [
+        {
+          "table_name": "zsearch_events_log",
+          "payload": "{\"search_id\":\"62f029f2-d69b-490c-867f-eb482de887e4\",\"location_type\":\"delivery_cell\",\"location_id\":\"4142258890903388160\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18782467\",\"element_type\":\"listing\",\"rank\":12}",
+          "event_names": {
+            "tap": "{\"action\":\"tap\"}",
+            "impression": "{\"action\":\"impression\"}"
+          }
+        }
+      ],
+      "allCTA": [],
+      "promoOffer": "",
+      "checkBulkOffers": true,
+      "bulkOffers": [
+        {
+          "text": "Pro extra 15% OFF",
+          "color": { "tint": "600", "type": "pink" }
+        },
+        {
+          "text": "50% OFF up to 100",
+          "color": { "tint": "500", "type": "blue" }
+        }
+      ],
+      "isDisabled": false,
+      "bottomContainers": [
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png"
+          },
+          "text": "2125+ orders placed from here recently"
+        },
+        {
+          "image": {
+            "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+            "aspect_ratio": 2.66666666667
+          },
+          "text": "Follows all Max Safety measures to ensure your food is safe"
+        }
+      ]
+    }
+  ]
+}
