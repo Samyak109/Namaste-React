@@ -46,8 +46,7 @@ const Header = () => (
   </div>
 );
 
-const RestaurantCard = () => {
-  const restaurantData = zomatoData.SECTION_SEARCH_RESULT[0];
+const RestaurantCard = ({restaurantData}) => {
   return (
     <div className="card">
       <img
@@ -63,9 +62,9 @@ const RestaurantCard = () => {
 
 const Body = () => (
   <div className="cards">
-    <RestaurantCard />
-    <RestaurantCard />
-    <RestaurantCard />
+    <RestaurantCard restaurantData = {zomatoData.SECTION_SEARCH_RESULT[0]}/>
+    <RestaurantCard restaurantData = {zomatoData.SECTION_SEARCH_RESULT[1]}/>
+    <RestaurantCard restaurantData = {zomatoData.SECTION_SEARCH_RESULT[2]}/>
   </div>
 );
 
