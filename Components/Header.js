@@ -1,5 +1,5 @@
 const Logo = () => (
-  <a href="/">
+  <a href="/" className="logo-div">
     <img
       className="logo"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOOQowG2cFpBqxhqnpE5TGf-bNBINTkzf5DBlOzjxXOT6KiHrApDGKkILMi-LnkjSUHmg&usqp=CAU"
@@ -23,7 +23,7 @@ const UserProfile = () => <i className="fa fa-cloud icon">Samyak</i>;
 
 const Cart = () => (
   <>
-    <i className="fa fa-cart-plus">Cart</i>
+    <i className="fa fa-cart-plus icon">Cart</i>
   </>
 );
 
@@ -31,8 +31,10 @@ const Header = () => (
   <div className="header">
     <Logo />
     <NavLinks />
-    <UserProfile />
-    <Cart />
+    <div className="profile-section">
+      <UserProfile />
+      <Cart />
+    </div>
   </div>
 );
 

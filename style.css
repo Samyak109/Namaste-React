@@ -1,44 +1,54 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    border-radius: 50%;
-    width: 6em;
+  border-radius: 50%;
+  width: 6em;
 }
 
+.logo-div {
+  width: 10%;
+}
 .nav-items {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
+  width: 60%;
+  justify-content: center;
 }
 
 .nav-items > li {
-    padding-left: 2em;
+  padding-left: 2em;
+}
+
+.profile-section {
+  width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
-    display: flex;
-    margin: 1em;
+  display: flex;
+  margin: 1em;
 }
 
 .card {
-    border: 1px dotted black;
-    width: 14rem;
-    margin: 10px;
-    padding: 5px;
+  border: 1px dotted black;
+  width: 14rem;
+  margin: 10px;
+  padding: 5px;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card > img {
-    width: 100%;
-    height: 10em;
+  width: 100%;
+  height: 10em;
 }
 
 .cuisine {
-    word-wrap: break-word;
+  word-wrap: break-word;
 }
