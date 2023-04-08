@@ -52,3 +52,7 @@
 .cuisine {
   word-wrap: break-word;
 }
+
+.search-container {
+  margin: 10px;
+}
