@@ -1,12 +1,14 @@
+import { useState } from "react";
 import * as zomatoData from "../zomato.json";
 import RestaurantCard from "./RestaurantCard";
 import Search from "./Search";
 const Body = () => {
+  const [restaurants, setRestaurants] = useState(zomatoData);
   return (
     <>
-      <Search key="search"/>
+      <Search key="search" allData={zomatoData} updateRestaurantOnFiltered={setRestaurants} />
       <div className="cards">
-        {zomatoData.SECTION_SEARCH_RESULT.map((restaurant) => {
+        {restaurants.SECTION_SEARCH_RESULT.map((restaurant) => {
           return (
             <RestaurantCard
               imageURL={restaurant.info?.image?.url}

@@ -1,5 +1,4 @@
 const RestaurantCard = ({ imageURL, name, cuisines, deliveryTime }) => {
-  console.log(imageURL);
   return (
     <div className="card">
       <img src={imageURL} alt="restaurant" />
