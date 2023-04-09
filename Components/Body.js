@@ -4,6 +4,7 @@ import RestaurantCard from "./RestaurantCard";
 import Search from "./Search";
 const Body = () => {
   const [restaurants, setRestaurants] = useState(zomatoData);
+  console.log("Called when state changes and BODY component is re - rendered");
   return (
     <>
       <Search key="search" allData={zomatoData} updateRestaurantOnFiltered={setRestaurants} />

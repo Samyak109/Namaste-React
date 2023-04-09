@@ -1,4 +1,5 @@
 const RestaurantCard = ({ imageURL, name, cuisines, deliveryTime }) => {
+  console.log('RESTAURANT CARD is being re-rendered')
   return (
     <div className="card">
       <img src={imageURL} alt="restaurant" />

@@ -9,6 +9,7 @@ import { useState } from "react";
 */
 export default Search = ({ allData, updateRestaurantOnFiltered }) => {
   let [searchText, setSearchText] = useState(); // giving default value
+  console.log("Called when state changes and SEARCH component is re - rendered");
   return (
     <div className="search-container">
       <input
