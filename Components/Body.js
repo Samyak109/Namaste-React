@@ -7,7 +7,12 @@ const Body = () => {
 
   useEffect(() => {
     console.log("Called from useeffect");
-    getDataFromAPI(setRestaurants);
+    (async () => {
+      const result = await getDataFromAPI(setAllData);
+      const restaurants = result?.page_data?.sections;
+      setFilteredRestaurants(restaurants);
+      setAllData(restaurants);
+    })();
   }, []);
 
   return (
