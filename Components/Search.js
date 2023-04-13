@@ -35,7 +35,7 @@ export default Search = ({ allData, updateRestaurantOnFiltered }) => {
 
 const filterData = (allData, searchText) => {
   const filteredData = allData.SECTION_SEARCH_RESULT.filter((restaurant) => {
-    return restaurant.info.name.includes(searchText);
+    return restaurant.info.name.toUpperCase().includes(searchText.toUpperCase());
   });
   return { SECTION_SEARCH_RESULT: filteredData };
 };
