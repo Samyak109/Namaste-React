@@ -2,44 +2,53 @@ import { useEffect, useState } from "react";
 import * as zomatoData from "../zomato.json";
 import RestaurantCard from "./RestaurantCard";
 import Search from "./Search";
+import ShimmerUI from "./Shimmer";
+
 const Body = () => {
-  const [restaurants, setRestaurants] = useState(zomatoData);
+  const [allData, setAllData] = useState();
+  const [filteredRestaurants, setFilteredRestaurants] = useState();
 
   useEffect(() => {
     console.log("Called from useeffect");
     (async () => {
-      const result = await getDataFromAPI(setAllData);
+      const result = await getDataFromAPI();
       const restaurants = result?.page_data?.sections;
       setFilteredRestaurants(restaurants);
       setAllData(restaurants);
     })();
   }, []);
 
-  return (
+  return allData?.SECTION_SEARCH_RESULT.length > 0 ? (
     <>
       <Search
         key="search"
-        allData={zomatoData}
-        updateRestaurantOnFiltered={setRestaurants}
+        allData={allData}
+        updateRestaurantOnFiltered={setFilteredRestaurants}
       />
-      <div className="cards">
-        {restaurants.SECTION_SEARCH_RESULT.map((restaurant) => {
-          return (
-            <RestaurantCard
-              imageURL={restaurant.info?.image?.url}
-              name={restaurant.info.name}
-              cuisines={restaurant.info.cuisine}
-              deliveryTime={restaurant.order.deliveryTime}
-              key={restaurant.info.resId}
-            />
-          );
-        })}
-      </div>
+      {filteredRestaurants?.SECTION_SEARCH_RESULT.length > 0 ? (
+        <div className="cards">
+          {filteredRestaurants.SECTION_SEARCH_RESULT.map((restaurant) => {
+            return (
+              <RestaurantCard
+                imageURL={restaurant.info?.image?.url}
+                name={restaurant.info.name}
+                cuisines={restaurant.info.cuisine}
+                deliveryTime={restaurant.order.deliveryTime}
+                key={restaurant.info.resId}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <h3>No Data Found</h3>
+      )}
     </>
+  ) : (
+    <ShimmerUI />
   );
 };
 
-const getDataFromAPI = async (setRestaurants) => {
+const getDataFromAPI = async () => {
   try {
     console.log("Fetching data");
     var myHeaders = new Headers();
@@ -60,7 +69,7 @@ const getDataFromAPI = async (setRestaurants) => {
     );
 
     const result = await res.json();
-    setRestaurants(result.page_data.sections);
+    return result;
   } catch (error) {
     console.log(error);
   }
