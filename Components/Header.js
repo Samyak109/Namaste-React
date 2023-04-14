@@ -1,11 +1,8 @@
+import { useState } from "react";
 import { LOGO } from "../constants";
 const Logo = () => (
   <a href="/" className="logo-div">
-    <img
-      className="logo"
-      src={LOGO}
-      alt="logo"
-    />
+    <img className="logo" src={LOGO} alt="logo" />
   </a>
 );
 
@@ -20,8 +17,30 @@ const NavLinks = () => (
   </>
 );
 
-const UserProfile = () => <i className="fa fa-cloud icon">Samyak</i>;
-
+const UserProfile = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  let userName = "Samyak";
+  return isLoggedIn ? (
+    <>
+      <i className="fa fa-cloud icon">{userName}</i>
+      <button
+        onClick={() => {
+          setIsLoggedIn(!isLoggedIn);
+        }}
+      >
+        Logout
+      </button>
+    </>
+  ) : (
+    <button
+      onClick={() => {
+        setIsLoggedIn(!isLoggedIn);
+      }}
+    >
+      Login
+    </button>
+  );
+};
 const Cart = () => (
   <>
     <i className="fa fa-cart-plus icon">Cart</i>
