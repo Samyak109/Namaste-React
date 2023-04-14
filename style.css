@@ -15,7 +15,7 @@
   display: flex;
   list-style: none;
   width: 60%;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .nav-items > li {
@@ -55,4 +55,8 @@
 
 .search-container {
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
 }

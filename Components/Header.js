@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { LOGO } from "../constants";
+import { Link } from "react-router-dom";
 const Logo = () => (
   <a href="/" className="logo-div">
     <img className="logo" src={LOGO} alt="logo" />
@@ -10,7 +11,9 @@ const NavLinks = () => (
   <>
     <ul className="nav-items">
       <li>Home</li>
-      <li>About</li>
+      <Link to="/about">
+        <li>About</li>
+      </Link>
       <li>Help</li>
       <li>Cart</li>
     </ul>
