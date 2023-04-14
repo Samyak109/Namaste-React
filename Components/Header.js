@@ -5,7 +5,15 @@ const Logo = () => (
     <img className="logo" src={LOGO} alt="logo" />
   </a>
 );
-
+/* 
+  - DO NOT USE useState inside if() or for()/while loop because this lead to inconsitency 
+  and will hinder optimization
+  - DO NOT USE usestate outside functional components
+  - NEVER CREATE ANOTHER COMPONENT INSIDE A COMPONENT. If one component is re rendered 
+  this will be created create that component many times
+  - if we use useEffect() without providing dependency array param then callback
+  function will be called after each render
+*/
 const NavLinks = () => (
   <>
     <ul className="nav-items">
