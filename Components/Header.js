@@ -10,7 +10,9 @@ const Logo = () => (
 const NavLinks = () => (
   <>
     <ul className="nav-items">
-      <li>Home</li>
+      <Link to="/">
+        <li>Home</li>
+      </Link>
       <Link to="/about">
         <li>About</li>
       </Link>
