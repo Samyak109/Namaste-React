@@ -29,7 +29,7 @@ const Body = () => {
         <div className="cards">
           {filteredRestaurants.SECTION_SEARCH_RESULT.map((restaurant) => {
             return (
-              <Link to={`restaurant/${restaurant.info.resId}`}>
+              <Link to={`restaurant/${restaurant.info.resId}?url=${restaurant.cardAction.clickUrl}`}>
               <RestaurantCard
                 imageURL={restaurant.info?.image?.url}
                 name={restaurant.info.name}
@@ -66,7 +66,7 @@ const getDataFromAPI = async () => {
     };
 
     const res = await fetch(
-      "https://www.zomato.com/webroutes/getPage?page_url=/mumbai/restaurants?place_name=Mumbai&dishv2_id=68987&location=&isMobile=0",
+      "https://www.zomato.com/webroutes/getPage?page_url=/goa/restaurants?place_name=Goa&dishv2_id=68987&location=&isMobile=0",
       requestOptions
     );
 
