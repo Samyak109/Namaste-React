@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import * as zomatoData from "../zomato.json";
 import RestaurantCard from "./RestaurantCard";
 import Search from "./Search";
 import ShimmerUI from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [allData, setAllData] = useState();
@@ -29,13 +29,15 @@ const Body = () => {
         <div className="cards">
           {filteredRestaurants.SECTION_SEARCH_RESULT.map((restaurant) => {
             return (
+              <Link to={`restaurant/${restaurant.info.resId}`}>
               <RestaurantCard
                 imageURL={restaurant.info?.image?.url}
                 name={restaurant.info.name}
                 cuisines={restaurant.info.cuisine}
                 deliveryTime={restaurant.order.deliveryTime}
                 key={restaurant.info.resId}
-              />
+                />
+                </Link>
             );
           })}
         </div>
